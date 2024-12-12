@@ -2,7 +2,7 @@ import React, {useState, useRef, useEffect} from 'react';
 import {TodoItemContainer} from './TodoItemContainer';
 import {TodoItemCheckbox} from './TodoItemCheckbox';
 import styled from 'styled-components';
-import {useSaveNewTodoItem} from '../../../data/hooks/useData';
+import {useSaveNewTodoItem} from '../../data/hooks/useData';
 
 
 const Input = styled.input`

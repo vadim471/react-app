@@ -1,7 +1,7 @@
 import React from 'react';
-import {TodoItemsContainer} from './components/TodoItemsContainer';
-import {NewTodoItem} from './components/NewTodoItem';
-import {TodoItem} from './components/TodoItem';
+import {TodoItemsContainer} from './TodoItemsContainer';
+import {NewTodoItem} from '../TodoItem/NewTodoItem';
+import {TodoItem} from '../TodoItem/TodoItem';
 import {useData} from '../../data/hooks/useData';
 
 export const TodoItems = () => {
